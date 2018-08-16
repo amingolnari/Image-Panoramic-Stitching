@@ -1,4 +1,4 @@
-# ImageProcExam
+# Image Panoramic Stitching
 Image processing samples code with OpenCV in CPP and Python
 
 ## Panoramic Stitching Images CPP - PanoStitchCPP.cpp

@@ -31,8 +31,9 @@ int main(int argc, char* argv[]) {
 		}
 		cout << Path << endl;
 		cunt++;
+		cout << "Load Images Successful" << endl;
 	}
-	cout << "Load Images Successful" << endl;
+	
 	Mat result, together;
 	unsigned long startT = 0, endT = 0;
 	Stitcher stitcher = Stitcher::createDefault();

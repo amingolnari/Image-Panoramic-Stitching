@@ -38,6 +38,7 @@ def main():
     path = "Pano Images/qazvin*"
     images = readFromPath(path)
     ShowStitchImage(images)
+    
     return
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 # Image Panoramic Stitching
 Image processing samples code with OpenCV in CPP and Python
+Create Panorama Images
 
 ## Panoramic Stitching Images CPP - PanoStitchCPP.cpp
 
@@ -20,3 +21,11 @@ Stitching
 Together
 
 ![togetherpy](https://user-images.githubusercontent.com/39456500/44061970-c7083232-9f6f-11e8-88cd-d4d7cb4f36b8.jpg)
+
+## Panoramic Stitching Images MATLAB - PanoStitchMATLAB.m
+
+automatically create a panorama using feature based image registration techniques.
+
+![panostitch](https://user-images.githubusercontent.com/39456500/44261838-1fc50100-a22e-11e8-8c41-d7cc64594a89.jpg)
+
+ panoramic image stitching

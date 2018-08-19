@@ -33,7 +33,14 @@ int main(int argc, char* argv[]) {
 		cunt++;
 		cout << "Load Images Successful" << endl;
 	}
-	
+	if (cunt)
+		cout << "Load Images Successful..." << endl;
+	else {
+		cout << "Check path name ! \n" <<
+			"The path name you entered : " << FilePath << endl;
+		getchar();
+		return -1;
+	}
 	Mat result, together;
 	unsigned long startT = 0, endT = 0;
 	Stitcher stitcher = Stitcher::createDefault();
